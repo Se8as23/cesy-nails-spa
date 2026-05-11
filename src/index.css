@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pinkLight: #F9DAD9;
+  --color-brand-pinkAccent: #b76e79;
+  --color-brand-text: #222222;
+  --color-brand-soft: rgba(255, 255, 255, 0.5);
+  
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+/* Personalización de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f8ecee;
+}
+::-webkit-scrollbar-thumb {
+    background: #b76e79;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #a35c67;
+}
+
+/* Efectos de Glassmorphism */
+.glass-card {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* Sombras especiales */
+.text-shadow-pink-hero {
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.text-shadow-light {
+    text-shadow: 0 1px 2px rgba(255,255,255,0.8);
+}
