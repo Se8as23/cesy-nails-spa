@@ -127,7 +127,7 @@ export default function SpaPedicureMockup() {
           {/* Paso 1 */}
           <div className="glass-card p-8 rounded-3xl text-center hover:-translate-y-2 transition-transform duration-500 shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1544161515-4abfbcece6b4?auto=format&fit=crop&q=80&w=400" 
+              src="https://cdn.prod.website-files.com/61db45ac0b81e69d6d60044d/65cfaff00a1dd156f8534a1f_descarga%20(2).jpeg" 
               alt="Limpieza" 
               className="w-full h-48 object-cover rounded-2xl mb-6 shadow-sm"
             />
